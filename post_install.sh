@@ -1,6 +1,6 @@
 #!/bin/sh
 
-mkdir -p -m 660 /var/www/grocy
+mkdir -p -m 777 /var/www/grocy
 mkdir -p /root/downloads
 curl -o /root/downloads/grocy.zip https://releases.grocy.info/latest
 unzip -d /var/www/grocy /root/downloads/grocy.zip
