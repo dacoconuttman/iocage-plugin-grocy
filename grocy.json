@@ -16,7 +16,8 @@
         "php82-tokenizer",
         "sqlite3",
         "nginx",
-        "curl"
+        "curl",
+        "git"
     ],
     "properties": {
         "dhcp": 1
